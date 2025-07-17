@@ -5,7 +5,11 @@
 // 4. 자기소개
 
 const Register = () => {
-  return <div>Register</div>;
+  return (
+    <div>
+      <input placeholder={"이름"} />
+    </div>
+  );
 };
 
 export default Register;
